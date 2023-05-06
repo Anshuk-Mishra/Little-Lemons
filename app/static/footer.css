@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: rgb(199, 199, 199);
+    display: grid;
+    grid-template-columns: auto;
+}
+#im{
+    padding: 1vw;
+    padding-left: 2vw;
+    display: inline-block;
+    width: 20%;
+}
+#prt{
+    display: inline-block;
+    width: 50%;
+    display: grid;
+    grid-template-rows: auto;
+}
+#line{
+    height: 0.5vh;
+    margin-top: -10%;
+    margin-left: 100%;
+    width: 100%;
+    background-color: gray;
+}
+#ftxt{
+    padding: 1vh;
+    width: 190%;
+    text-align: end;
+    font-size: 1.5rem;
+    color: rgb(103, 103, 103);
+    font-weight: bold;
+    margin-top: -8%;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}" />
+    <title>Registration</title>
+  </head>
+  <body>
+    {% include 'index.html' %}
+    <div id="banner">
+      <div class="image">
+        <img
+          src="{% static 'img/restaurant_inside.jpg' %}"
+          alt="image"
+          width="100%"
+          height="600vh"
+          id="banner-img"
+        />
+      </div>
+      <div id="text">
+        <div id="txt1">SPECIAL OFFER</div>
+        <div id="txt2">30% off This Weekend</div>
+        <a href="/book/"><div id="but">Book now</div></a>
+      </div>
+    </div>
+    <div id="hp-contains">
+      <div class="card" id="item1">
+        <div class="content">Our New Menu</div>
+        <div class="img"><img src="{% static 'img/grill.jpg'%}" alt="" width="100%"></div>
+        <div class="desc">Our menu consists of 12-15 seasonal items based on Italian, Greek, and Turkish culture.</div>
+      </div>
+      <div class="card" id="item2">
+        <div class="content">Book a table</div>
+        <div class="img"><img src="{% static 'img/salad.jpg' %}" alt="" width="100%"></div>
+        <div class="desc">Reserve your table for an italian, Greek, and Turkish dining experience.</div>
+      </div>
+      <div class="card" id="item3">
+        <div class="content">Opening Hours</div>
+        <div class="img"><img src="{% static '/img/restaurant chef C.jpg'%}" alt="" width="100%"></div>
+        <div class="desc">The Little Lemon Restaurant is open 7 days a week. except for public holidays.</div>
+      </div>
+    </div>
+    {% include 'footer.html' %}
+  </body>
+</html>

@@ -1,0 +1,26 @@
+{% include 'index.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'book.css' %}">
+<div id="book-tit">
+    Book Your Sit Now
+</div>
+<form action="" method="POST" id="here">
+    {% csrf_token %}
+    {{form}}
+    <input type="submit" value="Submit">
+    {% if submitted %}
+    <br>
+    <br>
+    <div>Thanks For Chosing Us</div>
+    {% else %}
+    <div>
+        <br><br>
+        We haven't resieved your details <br>
+        Try booking on another date or on another time slot <br>
+        <b>time format [for "1.00PM" enter "1" , [hh]] <br>
+            date format [mm/dd/yyyy] <br>
+        </b>
+    </div>
+    {% endif %}
+</form>
+{% include 'footer.html' %}

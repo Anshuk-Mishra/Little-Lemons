@@ -1,0 +1,17 @@
+{% include 'index.html' %} {% load static %}
+<link rel="stylesheet" href="{% static 'page.css' %}" />
+<div id="page-main">
+  <div id="head">
+    <div id="title">Menu item</div>
+    <div id="path">
+      <a href="/">Home </a>/ <a href="/menu">Menu</a> /
+      <a href="#">{{title}}</a>
+    </div>
+  </div>
+  <div id="data">
+    <div id="data-tit">{{title}}</div>
+    <div id="data-des">{{desc}}<br><br><br><span id="set">Price: ${{price}}</span></div>
+    <img src="{{image.url}}" alt="image" id="src-img">
+  </div> 
+</div>
+{% include 'footer.html' %}

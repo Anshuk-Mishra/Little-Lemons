@@ -1,0 +1,20 @@
+{% include 'index.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'about.css' %}">
+<div id="about-main">
+  <div id="prt1">
+    <div id="tit">About Little Lemons</div>
+    Little Lemons is a website that offers fresh and healthy recipes, tips and
+    tricks for cooking with lemons, and a variety of lemon-themed products.
+    Whether you are looking for a zesty salad dressing, a refreshing lemonade,
+    or a tangy dessert, Little Lemons has something for you. You can also browse
+    through their blog posts, videos, and podcasts to learn more about the
+    benefits of lemons, how to grow your own lemon tree, and how to use lemons
+    in your beauty routine. Little Lemons is your ultimate source for all things
+    lemony.🍋
+  </div>
+  <div id="prt2">
+    <img src="{% static '/img/lemonade.png' %}" alt="" id="img-wh">
+  </div>
+</div>
+{% include 'footer.html' %}

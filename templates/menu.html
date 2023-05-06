@@ -1,0 +1,9 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'menu.css' %}">
+{% include 'index.html' %}
+<h1 id="head">Menu</h1>
+{% for key,values in mydic.items %}
+<a href="/page/{{key}}" class="a-card"><div class="card">{{key}}</div></a>
+<div class="price">$.{{values.0}}</div>
+{% endfor %}
+<div class="foot">{% include 'footer.html' %}</div>>

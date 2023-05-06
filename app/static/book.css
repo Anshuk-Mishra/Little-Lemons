@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#book-tit{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: gray;
+    margin-top: 10vh;
+    margin-bottom: 3vh;
+}
+#here{
+    width: 30%;
+    margin: auto;
+}
+#id_Fname{
+    display: block;
+    width: 100%;
+}
+
+#id_Lname{
+    display: block;
+    width: 100%;
+}
+#id_time{
+    display: block;
+    width: 100%;
+}
+#id_date{
+    display: block;
+    width: 100%;
+}
