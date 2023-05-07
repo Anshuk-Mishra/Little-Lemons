@@ -6,6 +6,6 @@ class AdminMenu(admin.ModelAdmin):
 
 class AdminBook(admin.ModelAdmin):
     list_display = ["Fname","date","time"]    
-# Register your models here.
+# # Register your models here.
 admin.site.register(models.Menu,AdminMenu)
 admin.site.register(models.Book,AdminBook)
