@@ -16,19 +16,27 @@
     margin: auto;
 }
 #id_Fname{
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 50%;
+    padding: 1vh;
 }
 
 #id_Lname{
-    display: block;
-    width: 100%;
+    display: inline-block;
+    width: 50%;
+    padding: 1vh;
 }
 #id_time{
     display: block;
     width: 100%;
+    padding: 1vh;
 }
 #id_date{
     display: block;
     width: 100%;
+    padding: 1vh;
+}
+#id_Fname > label{
+    display: inline-block;
+    width: 50%;
 }
