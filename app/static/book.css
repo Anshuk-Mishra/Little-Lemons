@@ -44,3 +44,33 @@
     margin: 1vh;
     margin-bottom: 2vh;
 }
+#msg{
+    text-align: center;
+    margin-bottom: 5vh;
+    border: 1px solid red;
+    color:  red;
+    padding: 2vw;
+}
+#suc{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    border: 2px solid green ;
+    padding: 1vw;
+    margin: 5vh;
+}
+.frm-btn{
+    color: gray;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 1vw;
+    font-weight: bold;
+    margin-left: 1vh;
+    width: 48%;
+    margin-top: 1vw;
+    font-size: 1.1rem;
+}
+.frm-btn:hover{
+    color: white;
+    background-color: gray;
+}
